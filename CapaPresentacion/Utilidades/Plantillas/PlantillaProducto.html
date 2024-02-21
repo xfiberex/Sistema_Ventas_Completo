@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Page Design</title>
+    <style>
+        table.border {
+            border-collapse: collapse;
+        }
+
+            table.border th {
+                text-align: center;
+                padding: 5px;
+                border: 1px solid black;
+            }
+
+            table.border td {
+                text-align: center;
+                padding: 5px;
+                border: 1px solid black;
+            }
+    </style>
+</head>
+<body>
+    <table border="0" style="width:86%">
+        <tr>
+            <td style="width:15%" valign="top"></td>
+            <td style="width:60%" valign="top" align="center">
+
+                <label style="font-size:20px;font-weight:bold;margin-bottom:10px">@titulo</label><br />
+                <div style="height:12px !important"></div>
+                <label style="font-size:11px;">RNC: @docnegocio</label><br />
+                <label style="font-size:11px;">Dirección: @direcnegocio</label><br />
+                <label style="font-size:11px;">Nombre Negocio: @nombrenegocio</label><br />
+                <label style="font-size:11px;">Fecha Impresión: @fecharegistro</label><br />
+            </td>
+        </tr>
+    </table>
+    <div style="height:15px !important"></div>
+    <hr />
+    
+    <div style="height:15px !important"></div>
+    <table style="width:100%;font-size:12px;" class="border">
+        <thead>
+            <tr style="background-color:#CACACA">
+                <th>Codigo</th>
+                <th>Nombre</th>
+                <th>Descripcion</th>
+                <th>Categoria</th>
+                <th>Stock</th>
+                <th>PrecioCompra</th>
+                <th>PrecioVenta</th>
+                <th>Estado</th>
+            </tr>
+        </thead>
+        <tbody>
+            @filas
+        </tbody>
+    </table>
+</body>
+</html>

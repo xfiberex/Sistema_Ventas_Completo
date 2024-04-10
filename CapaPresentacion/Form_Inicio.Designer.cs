@@ -49,6 +49,7 @@ namespace CapaPresentacion
             this.menuProveedores = new FontAwesome.Sharp.IconMenuItem();
             this.menuReportes = new FontAwesome.Sharp.IconMenuItem();
             this.sub_menuReporteCompra = new FontAwesome.Sharp.IconMenuItem();
+            this.sub_menuReporteVenta = new FontAwesome.Sharp.IconMenuItem();
             this.menuAcerca = new FontAwesome.Sharp.IconMenuItem();
             this.menuTitulo = new System.Windows.Forms.MenuStrip();
             this.lblUsuario = new Custom_Controls_Plus.RJ_Label();
@@ -56,7 +57,6 @@ namespace CapaPresentacion
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tmTransition = new System.Windows.Forms.Timer(this.components);
             this.btnCerrarSección = new Custom_Controls_Plus.RJ_Button();
-            this.sub_menuReporteVenta = new FontAwesome.Sharp.IconMenuItem();
             this.menu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -230,7 +230,7 @@ namespace CapaPresentacion
             this.sub_menuRegistraCompra.IconSize = 25;
             this.sub_menuRegistraCompra.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.sub_menuRegistraCompra.Name = "sub_menuRegistraCompra";
-            this.sub_menuRegistraCompra.Size = new System.Drawing.Size(189, 32);
+            this.sub_menuRegistraCompra.Size = new System.Drawing.Size(140, 32);
             this.sub_menuRegistraCompra.Text = "Registrar";
             this.sub_menuRegistraCompra.Click += new System.EventHandler(this.sub_menuRegistraCompra_Click);
             // 
@@ -244,7 +244,7 @@ namespace CapaPresentacion
             this.sub_menuDetalleCompra.IconSize = 25;
             this.sub_menuDetalleCompra.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.sub_menuDetalleCompra.Name = "sub_menuDetalleCompra";
-            this.sub_menuDetalleCompra.Size = new System.Drawing.Size(189, 32);
+            this.sub_menuDetalleCompra.Size = new System.Drawing.Size(140, 32);
             this.sub_menuDetalleCompra.Text = "Detalles";
             this.sub_menuDetalleCompra.Click += new System.EventHandler(this.sub_menuDetalleCompra_Click);
             // 
@@ -308,6 +308,20 @@ namespace CapaPresentacion
             this.sub_menuReporteCompra.Size = new System.Drawing.Size(210, 32);
             this.sub_menuReporteCompra.Text = "Reporte de Compras";
             this.sub_menuReporteCompra.Click += new System.EventHandler(this.sub_menuReporteCompra_Click);
+            // 
+            // sub_menuReporteVenta
+            // 
+            this.sub_menuReporteVenta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(59)))), ((int)(((byte)(59)))));
+            this.sub_menuReporteVenta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(163)))), ((int)(((byte)(102)))));
+            this.sub_menuReporteVenta.IconChar = FontAwesome.Sharp.IconChar.FileText;
+            this.sub_menuReporteVenta.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(163)))), ((int)(((byte)(102)))));
+            this.sub_menuReporteVenta.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.sub_menuReporteVenta.IconSize = 25;
+            this.sub_menuReporteVenta.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.sub_menuReporteVenta.Name = "sub_menuReporteVenta";
+            this.sub_menuReporteVenta.Size = new System.Drawing.Size(210, 32);
+            this.sub_menuReporteVenta.Text = "Reporte de Ventas";
+            this.sub_menuReporteVenta.Click += new System.EventHandler(this.sub_menuReporteVenta_Click);
             // 
             // menuAcerca
             // 
@@ -399,20 +413,6 @@ namespace CapaPresentacion
             this.btnCerrarSección.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(244)))), ((int)(((byte)(249)))));
             this.btnCerrarSección.UseVisualStyleBackColor = false;
             this.btnCerrarSección.Click += new System.EventHandler(this.btnCerrarSección_Click);
-            // 
-            // sub_menuReporteVenta
-            // 
-            this.sub_menuReporteVenta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(59)))), ((int)(((byte)(59)))));
-            this.sub_menuReporteVenta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(163)))), ((int)(((byte)(102)))));
-            this.sub_menuReporteVenta.IconChar = FontAwesome.Sharp.IconChar.FileText;
-            this.sub_menuReporteVenta.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(163)))), ((int)(((byte)(102)))));
-            this.sub_menuReporteVenta.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.sub_menuReporteVenta.IconSize = 25;
-            this.sub_menuReporteVenta.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.sub_menuReporteVenta.Name = "sub_menuReporteVenta";
-            this.sub_menuReporteVenta.Size = new System.Drawing.Size(210, 32);
-            this.sub_menuReporteVenta.Text = "Reporte de Ventas";
-            this.sub_menuReporteVenta.Click += new System.EventHandler(this.sub_menuReporteVenta_Click);
             // 
             // Form_Inicio
             // 

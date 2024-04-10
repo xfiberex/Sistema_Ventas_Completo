@@ -23,7 +23,7 @@ namespace CapaPresentacion.Formularios
 
         private void Form_Producto_Load(object sender, EventArgs e)
         {
-            // Los item que van a recibir los cbb
+            // Los item que van a recibir los cbb de estado
             cbbEstadoProd.Items.Add(new OpcionCombo()
             {
                 Valor = 1,
@@ -95,7 +95,6 @@ namespace CapaPresentacion.Formularios
                     item.Estado == true ? 1 : 0,
                     item.Estado == true ? "Activo" : "No Activo"
                 });
-
             }
         }
 
@@ -122,7 +121,10 @@ namespace CapaPresentacion.Formularios
                 Codigo = txtCodigoProd.Text,
                 Nombre = txtNombreProd.Text,
                 Descripcion = txtDescripcionProd.Text,
-                IdOCategoria = new CE_Categoria() { IdCategoria = Convert.ToInt32(((OpcionCombo)cbbCategoriaProd.SelectedItem).Valor) },
+                IdOCategoria = new CE_Categoria() 
+                { 
+                    IdCategoria = Convert.ToInt32(((OpcionCombo)cbbCategoriaProd.SelectedItem).Valor) 
+                },
                 // Si es igual a 1 sea true y si no false
                 Estado = Convert.ToInt32(((OpcionCombo)cbbEstadoProd.SelectedItem).Valor) == 1 ? true : false
             };
@@ -137,7 +139,12 @@ namespace CapaPresentacion.Formularios
                 if (idProductogenerado != 0)
                 {
                     // Agrega los datos de las caja de texto y los convierte para mostrarlo en el dgvListadoProducto
-                    dgvListadoProductos.Rows.Add(new object[] {"", idProductogenerado,txtCodigoProd.Text,txtNombreProd.Text,txtDescripcionProd.Text,
+                    dgvListadoProductos.Rows.Add(new object[] {
+                        "", 
+                        idProductogenerado,
+                        txtCodigoProd.Text,
+                        txtNombreProd.Text,
+                        txtDescripcionProd.Text,
                         ((OpcionCombo)cbbCategoriaProd.SelectedItem).Valor.ToString(),
                         ((OpcionCombo)cbbCategoriaProd.SelectedItem).Texto.ToString(),
                         

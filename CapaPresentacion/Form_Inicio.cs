@@ -56,7 +56,7 @@ namespace CapaPresentacion
                 }
             }
 
-            lblUsuario.Text = "SISTEMA DE VENTAS - BIENVENIDO: " + usuarioActual.NombreCompleto.ToUpper() + " (" + usuarioActual.IdORol.Descripcion + ")";
+            lblUsuario.Text = "SISTEMA DE VENTAS - BIENVENIDO: " + usuarioActual.NombreCompleto.ToUpper(); /*+ " (" + usuarioActual.IdORol.Descripcion + ")";*/
             //                                                                                                //Descomentar esto para el inicio por login predeterminado
             //                                                                                                //Comentar para saltar el inicio de sesión
         }

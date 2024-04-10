@@ -28,15 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
             this.cbbBuscarProd = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -233,8 +232,10 @@
             this.txtCodigoProd.PasswordChar = false;
             this.txtCodigoProd.PlaceholderColor = System.Drawing.Color.Black;
             this.txtCodigoProd.PlaceholderText = "Ingrese el codigo";
+            this.txtCodigoProd.ReadOnly = false;
             this.txtCodigoProd.Size = new System.Drawing.Size(192, 31);
             this.txtCodigoProd.TabIndex = 31;
+            this.txtCodigoProd.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.txtCodigoProd.UnderlinedStyle = false;
             // 
             // txtNombreProd
@@ -254,8 +255,10 @@
             this.txtNombreProd.PasswordChar = false;
             this.txtNombreProd.PlaceholderColor = System.Drawing.Color.Black;
             this.txtNombreProd.PlaceholderText = "Ingrese el nombre";
+            this.txtNombreProd.ReadOnly = false;
             this.txtNombreProd.Size = new System.Drawing.Size(192, 31);
             this.txtNombreProd.TabIndex = 33;
+            this.txtNombreProd.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.txtNombreProd.UnderlinedStyle = false;
             // 
             // txtDescripcionProd
@@ -275,8 +278,10 @@
             this.txtDescripcionProd.PasswordChar = false;
             this.txtDescripcionProd.PlaceholderColor = System.Drawing.Color.Black;
             this.txtDescripcionProd.PlaceholderText = "Ingrese las caracteristicas";
+            this.txtDescripcionProd.ReadOnly = false;
             this.txtDescripcionProd.Size = new System.Drawing.Size(192, 31);
             this.txtDescripcionProd.TabIndex = 35;
+            this.txtDescripcionProd.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.txtDescripcionProd.UnderlinedStyle = false;
             // 
             // btnLimpiarDatosProd
@@ -451,8 +456,10 @@
             this.txtBusquedaProd.PasswordChar = false;
             this.txtBusquedaProd.PlaceholderColor = System.Drawing.Color.DimGray;
             this.txtBusquedaProd.PlaceholderText = "Ingrese lo que busca...";
+            this.txtBusquedaProd.ReadOnly = false;
             this.txtBusquedaProd.Size = new System.Drawing.Size(153, 31);
             this.txtBusquedaProd.TabIndex = 54;
+            this.txtBusquedaProd.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.txtBusquedaProd.UnderlinedStyle = true;
             // 
             // rJ_Label5
@@ -505,14 +512,14 @@
             this.dgvListadoProductos.BorderRadius = 5;
             this.dgvListadoProductos.BorderSize = 1;
             this.dgvListadoProductos.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle9.Padding = new System.Windows.Forms.Padding(5);
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            this.dgvListadoProductos.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.Padding = new System.Windows.Forms.Padding(5);
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            this.dgvListadoProductos.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvListadoProductos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvListadoProductos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.btnSeleccionarProducto,
@@ -531,11 +538,11 @@
             this.dgvListadoProductos.MultiSelect = false;
             this.dgvListadoProductos.Name = "dgvListadoProductos";
             this.dgvListadoProductos.ReadOnly = true;
-            dataGridViewCellStyle16.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle16.Padding = new System.Windows.Forms.Padding(3);
-            dataGridViewCellStyle16.SelectionBackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle16.SelectionForeColor = System.Drawing.Color.Black;
-            this.dgvListadoProductos.RowsDefaultCellStyle = dataGridViewCellStyle16;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.Padding = new System.Windows.Forms.Padding(3);
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.Black;
+            this.dgvListadoProductos.RowsDefaultCellStyle = dataGridViewCellStyle8;
             this.dgvListadoProductos.Size = new System.Drawing.Size(814, 564);
             this.dgvListadoProductos.TabIndex = 50;
             this.dgvListadoProductos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvListadoProducto_CellContentClick);
@@ -558,8 +565,8 @@
             // 
             // Codigo
             // 
-            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.Codigo.DefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.Codigo.DefaultCellStyle = dataGridViewCellStyle2;
             this.Codigo.FillWeight = 60F;
             this.Codigo.HeaderText = "Codigo";
             this.Codigo.Name = "Codigo";
@@ -588,8 +595,8 @@
             // 
             // Categoria
             // 
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.Categoria.DefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.Categoria.DefaultCellStyle = dataGridViewCellStyle3;
             this.Categoria.FillWeight = 90F;
             this.Categoria.HeaderText = "Categoria";
             this.Categoria.Name = "Categoria";
@@ -597,8 +604,8 @@
             // 
             // Stock
             // 
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.Stock.DefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.Stock.DefaultCellStyle = dataGridViewCellStyle4;
             this.Stock.FillWeight = 50F;
             this.Stock.HeaderText = "Stock";
             this.Stock.Name = "Stock";
@@ -606,8 +613,8 @@
             // 
             // PrecioCompra
             // 
-            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.PrecioCompra.DefaultCellStyle = dataGridViewCellStyle13;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.PrecioCompra.DefaultCellStyle = dataGridViewCellStyle5;
             this.PrecioCompra.FillWeight = 70F;
             this.PrecioCompra.HeaderText = "Compra";
             this.PrecioCompra.Name = "PrecioCompra";
@@ -615,8 +622,8 @@
             // 
             // PrecioVenta
             // 
-            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.PrecioVenta.DefaultCellStyle = dataGridViewCellStyle14;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.PrecioVenta.DefaultCellStyle = dataGridViewCellStyle6;
             this.PrecioVenta.FillWeight = 70F;
             this.PrecioVenta.HeaderText = "Venta";
             this.PrecioVenta.Name = "PrecioVenta";
@@ -631,8 +638,8 @@
             // 
             // Estado
             // 
-            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.Estado.DefaultCellStyle = dataGridViewCellStyle15;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.Estado.DefaultCellStyle = dataGridViewCellStyle7;
             this.Estado.FillWeight = 60F;
             this.Estado.HeaderText = "Estado";
             this.Estado.Name = "Estado";

@@ -153,17 +153,6 @@ Sistema_Ventas_Completo/
    - Compilar la solución (F6)
    - Ejecutar el proyecto (F5)
 
-## 📸 Capturas de Pantalla
-
-### Pantalla de Login
-![Login](ruta-a-imagen-login)
-
-### Dashboard Principal
-![Dashboard](ruta-a-imagen-dashboard)
-
-### Gestión de Productos
-![Productos](ruta-a-imagen-productos)
-
 ## 🤝 Contribuciones
 
 Las contribuciones son bienvenidas. Para contribuir:
